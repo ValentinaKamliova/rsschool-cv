@@ -29,7 +29,6 @@ function multiply(a, b){
 - __Courses:__
   - Website Development with HTML, CSS & JAVASCRIPT - IT Academy
   - Web Application Development with JavaScript - IT Academy
-  - JavaScript/Front-end Stage 0 - The Rolling Scopes School
 
 ## __English__
 __A2__ 
