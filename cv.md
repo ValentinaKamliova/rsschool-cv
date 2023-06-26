@@ -25,7 +25,8 @@ function multiply(a, b){
 ```
 
 ## __Education__ 
-- __University:__ Gomel State Univerity named after Francisk Skoryna, Psychology
+- __University:__
+  - Gomel State Univerity named after Francisk Skoryna, Psychology
 - __Courses:__
   - Website Development with HTML, CSS & JAVASCRIPT - IT Academy
   - Web Application Development with JavaScript - IT Academy
