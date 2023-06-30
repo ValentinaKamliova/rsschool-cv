@@ -8,7 +8,7 @@
 - __GitHub:__ [vkamliova](https://github.com/vkamliova)
 
 ## __About Me__
-Psychologist with 8 years of experience. Interest in IT for a long time. I went through a review in different areas, such as QA and Back-end development, but chose Front-end development for further study as the most interesting and understandable area for me. Attending trainings on Front-end development at IT-Academy. I have already studied and have networking certificates for HTML, CSS and JavaScript. I have knowledge in GIT and Visual Study Code.
+Worked as a psychologist for 8 years. Interest in IT for a long time. I went through a review in different areas, such as QA and Back-end development, but chose Front-end development for further study as the most interesting and understandable area for me. Attending trainings on Front-end development at IT-Academy. I have already studied and have networking certificates for HTML, CSS and JavaScript. I have knowledge in GIT and Visual Study Code.
 
 ## __Skills__
 - HTML
