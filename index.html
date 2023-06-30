@@ -13,25 +13,26 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" type="image/png" href="./img/3757968.png">
     <script src="./scripts.js"></script>
 </head>
 
 <body>
-   <header>
+    <header>
         <nav class="topnav" id="myTopnav">
             <div class="topnav-container">
-            <a href="#contacts">Contacts</a>
-            <a href="#summary">Summary</a>
-            <a href="#skills">Skills</a>
-            <a href="#code">Code</a>
-            <a href="#projects">Projects</a>
-            <a href="#education">Education</a>
-            <a href="#courses">Courses</a>
-            <a href="#english">English</a>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()" aria-hidden="true">
-                <i class="fa fa-bars"></i>
-            </a>
-        </div>
+                <a href="#contacts">Contacts</a>
+                <a href="#summary">Summary</a>
+                <a href="#skills">Skills</a>
+                <a href="#code">Code</a>
+                <a href="#projects">Projects</a>
+                <a href="#education">Education</a>
+                <a href="#courses">Courses</a>
+                <a href="#english">English</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()" aria-hidden="true">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
         </nav>
     </header>
     <section class="about-me">
@@ -44,12 +45,16 @@
                 <h2 class="position">Front-end developer</h2>
                 <div class="contacts" id="contacts">
                     <ul>
-                        <li>Belarus, Gomel</li>
+                        <li>Batumi, Georgia</li>
                         <li>Email:
-                            <a href="mailto:kamlevavalentina@gmail.com" title="emaile=">kamlevavalentina@gmail.com</a>
+                            <a href="mailto:kamlevavalentina@gmail.com" title="emaile">kamlevavalentina@gmail.com</a>
                         </li>
                         <li>Github:
-                            <a href="https://github.com/vkamliova" title="github=">vkamliova</a>
+                            <a href="https://github.com/vkamliova" title="github">vkamliova</a>
+                        </li>
+                        <li>LinkedIn:
+                            <a href="https://www.linkedin.com/in/valentina-kamliova-97bbaa16a/"
+                                title="LinkedIn">Valentina Kamliova</a>
                         </li>
                     </ul>
                 </div>
@@ -57,55 +62,61 @@
         </div>
         <div class="about-me-content" id="summary">
             <h2>Summary</h2>
-            <p>Psychologist with 8 years of experience. I worked in a kindergarten mainly with children and their
-                parents, but in addition I have a wide area of ​​responsibility. Interest in IT for a long time. I went
-                through a review in different areas, such as QA and Back-end development, but chose Front-end
-                development for further study as the most interesting and understandable area for me. Attending
-                trainings on Front-end development at IT-Academy. I have already studied and have networking
-                certificates for HTML, CSS and JavaScript. I have knowledge in GIT and Visual Study Code.</p>
+            <p class="with-padding">Psychologist with 8 years of experience. Interest in IT for a long time. I went
+                through a review in
+                different areas, such as QA and Back-end development, but chose Front-end development for further study
+                as the most interesting and understandable area for me. Attending trainings on Front-end development at
+                IT-Academy. I have already studied and have networking certificates for HTML, CSS and JavaScript. I have
+                knowledge in GIT and Visual Study Code.</p>
         </div>
         <div class="about-me-content" id="skills">
             <h2>Skills</h2>
             <ul class="skills-list">
-                <li class="skills-item">
-                    Web-development: HTML5, CSS3, JavaScript</li>
-                <li class="skills-item"> GIT, Github </li>
+                <li class="skills-item">HTML</li>
+                <li class="skills-item">CSS/SASS</li>
+                <li class="skills-item">JavaScript</li>
+                <li class="skills-item">Git</li>
+                <li class="skills-item">Visual Study Code</li>
             </ul>
         </div>
         <div class="about-me-content" id="code">
             <h2>Code</h2>
-            <pre> <code> function multiply(a, b){
+            <pre class="with-padding"> <code> function multiply(a, b){
     return a * b;
 }</code> </pre>
         </div>
         <div class="about-me-content" id="projects">
             <h2>Projects</h2>
-            <p>I don't have any projects right now, but they will be posted <a
-                    href="https://github.com/vkamliova"> here</a> soon.</p>
+            <ul>
+                <li><a href="https://vkamliova.github.io/Plants/Plants/">Plants</a></li>
+                <li><a href="https://vkamliova.github.io/shelter/">Shelter</a></li>
+            </ul>
         </div>
         <div class="about-me-content" id="education">
             <h2>Education</h2>
-            <div>Francisk Skorina Gomel State University </div>
+            <ul>
+                <li>Francisk Skorina Gomel State University</li>
+            </ul>
         </div>
         <div class="about-me-content" id="courses">
             <h2>Courses</h2>
             <ul>
                 <li>IT Academy: Website Development with HTML, CSS &amp; JAVASCRIPT</li>
                 <li>IT Academy: Web Application Development with JavaScript</li>
+                <li>The Rolling Scopes School: JS/FE PRE-SCHOOL</li>
             </ul>
         </div>
         <div class="about-me-content" id="english">
             <h2>English</h2>
-            <p>English level: A2</p>
+            <p class="with-padding">English level: A2</p>
         </div>
 
     </section>
     <footer>
         <div class="footer-content">
             © 2023 <a href="https://github.com/vkamliova" class="github nav-link">vkamliova</a>
-            <a href="https://rs.school/js/">
-                <img class="rss" src="./img/rs_school_js.svg" alt="logo"
-                    title="Курс «JavaScript/Front-end»">
+            <a href="https://rs.school/js-stage0/">
+                <img class="rss" src="./img/rs_school_js.svg" alt="logo" title="Курс «JavaScript/Front-end. Stage 0»">
             </a>
         </div>
     </footer>
