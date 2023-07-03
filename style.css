@@ -87,8 +87,8 @@ header {
 
 .contacts {
   display: flex;
-    flex-direction: column;
-    justify-content: center;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .about-me {
