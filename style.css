@@ -85,6 +85,12 @@ header {
   background-color: #ffffff;
 }
 
+.contacts {
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .about-me {
   max-width: 1050px;
   width: 95%;
@@ -95,15 +101,17 @@ header {
 .about-me-content-start {
   border-bottom: 8px solid #5050503f;
   display: flex;
-  justify-content: space-around;
-  padding-top: 45px;}
+  justify-content: space-evenly;
+  padding-top: 45px;
+}
 
 .about-me-photo>img {
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   object-fit: cover;
   box-shadow: 0 1px 10px rgb(0 0 0 / 60%);
   filter: grayscale(0.2) brightness(1.05);
+  border-radius: 150px;
 }
 
 h2 {
@@ -192,6 +200,7 @@ a:active {
 
   .about-me-content-start {
     flex-direction: column;
+    align-items: center;
   }
 
   .header-text p,
